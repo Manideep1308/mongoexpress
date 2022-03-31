@@ -1,4 +1,5 @@
 
+
 #all happens inside ec2 server
 
 sudo apt-get update
