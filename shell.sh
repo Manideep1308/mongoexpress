@@ -45,7 +45,7 @@ echo "start docker compose"
 docker-compose up -d
 
 
-echo "now running containers"
+echo "present running containers"
 docker ps
 
 
