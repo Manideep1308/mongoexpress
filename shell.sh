@@ -14,7 +14,6 @@ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 
 sudo apt-get install docker-ce docker-ce-cli containerd.io
 
-
 apt-cache madison docker-ce
 
 sudo apt-get install docker-ce docker-ce-cli containerd.io
@@ -32,6 +31,10 @@ docker --version
 
 #check compose version
 docker-compose --version
+
+
+#start the session again if deamon throws an error
+#ssh -i <keyname.pem> ec2-user@public-ip
 
 
 #automating the compose
