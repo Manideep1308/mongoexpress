@@ -22,12 +22,17 @@ apt-cache madison docker-ce
 
 sudo apt-get install docker-ce docker-ce-cli containerd.io
 
+
 #install docker
 sudo apt install docker.io
 
 
 #install docker compose
 sudo apt install docker-compose
+
+
+#exucute docker commands without sudo
+sudo usermod -aG docker ec2-user
 
 
 #check version
