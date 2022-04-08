@@ -32,7 +32,7 @@ sudo apt install docker-compose
 
 
 #exucute docker commands without sudo
-sudo usermod -aG docker ec2-user
+sudo usermod -aG docker ubuntu
 
 
 #check version
