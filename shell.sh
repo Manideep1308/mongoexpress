@@ -20,15 +20,15 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io
 
 apt-cache madison docker-ce
 
-sudo apt-get install docker-ce docker-ce-cli containerd.io
+sudo apt-get install -y docker-ce docker-ce-cli containerd.io
 
 
 #install docker
-sudo apt install docker.io
+sudo apt install -y docker.io
 
 
 #install docker compose
-sudo apt install docker-compose
+sudo apt install -y docker-compose
 
 
 #exucute docker commands without sudo
