@@ -16,7 +16,7 @@ sudo apt-get install \
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 
 
-sudo apt-get install docker-ce docker-ce-cli containerd.io
+sudo apt-get install -y docker-ce docker-ce-cli containerd.io
 
 apt-cache madison docker-ce
 
